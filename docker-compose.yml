@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+
+  schedserv:
+    image: soa-g2/schedule-service
+    container_name: schedserv
+    build:
+      context: ./soa-g2-u4-schedule-service
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:XXXX:XXXX"
+
+  webui:
+    # This could probably be on an isolated docker subnet...
+    # however, due to CORS it may be best if this nginx server 
+    # also acts as a reverse proxy for app-api.
+    image: soa-g2/web-ui
+    container_name: webui
+    build:
+      context: ./soa-g2-web-ui
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:9997:9997"
+
+
+# == Volumes
+#volumes:
+#  nodemocks_node_modules:
+
+
+# == Networks
+networks:
+  isole-net-1: # Need to isolate a service use this network.
+    external:
+      name: isole-net-1
+  g2s-net-1: # Need to name this even if it is default in order to reference it.
+    external: 
+      name: g2s-net-1
+  default: # If a service does not specify a network it will use this one
+    external: 
+      name: g2s-net-1

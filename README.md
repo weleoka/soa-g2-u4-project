@@ -27,3 +27,31 @@ Maven & Docker
 
 Project info
 - https://trello.com/b/5uZSKLkd/soa-g2-u4-schedule-project
+
+
+
+# Quickclone
+
+HTTPS:
+```bash
+git clone https://github.com/weleoka/soa-g2-u4-project.git
+cd soa-g2-u4-project
+git clone https://github.com/weleoka/soa-g2-web-ui.git
+git clone https://github.com/simonblund/soa-g2-u4-schedule-service.git
+./build_spring_projects.sh
+docker network create g2s-net-1 --subnet 172.24.24.0/24;
+docker-compose up --build
+echo "Done!"
+```
+
+SSH:
+```bash
+git clone git@github.com:weleoka/soa-g2-u4-project.git
+cd soa-g2-u4-project
+git clone git@github.com:weleoka/soa-g2-web-ui.git
+git clone git@github.com:simonblund/soa-g2-u4-schedule-service.git
+./build_spring_projects.sh
+docker network create g2s-net-1 --subnet 172.24.24.0/24;
+docker-compose up --build
+echo "Done!"
+```
