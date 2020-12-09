@@ -1,3 +1,13 @@
-soa-g2-app-middleware
-soa-g2-u4-schedule-service/
+# Nested repositories. 
+# note: git submodules not implemented
+soa-g2-mock-services/
+soa-g2-student-service/
+soa-g2-examination-service/
+soa-g2-app-middleware/
+soa-g2-openapis/
 soa-g2-web-ui/
+
+soa-g2-u4-schedule-service/
+
+
+.gradle
