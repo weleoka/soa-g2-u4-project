@@ -63,8 +63,8 @@ services:
     build:
       context: ./soa-g2-u4-schedule-service
       dockerfile: Dockerfile
-    ports:
-      - "127.0.0.1:XXXX:XXXX"
+#    ports:
+#      - "127.0.0.1:XXXX:XXXX"
 
   webui:
     # This could probably be on an isolated docker subnet...
