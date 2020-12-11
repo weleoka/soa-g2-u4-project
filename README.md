@@ -56,7 +56,7 @@ echo "Done!"
 
 SSH:
 ```bash
-git clone git@github.com:weleoka/soa-g2-u4-wproject.git
+git clone git@github.com:weleoka/soa-g2-u4-project.git
 cd soa-g2-project
 git clone git@github.com:weleoka/soa-g2-mock-services.git
 git clone git@github.com:weleoka/soa-g2-web-ui.git
