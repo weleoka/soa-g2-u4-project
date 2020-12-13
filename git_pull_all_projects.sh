@@ -11,24 +11,35 @@ set -euo pipefail
 cd soa-g2-student-service
 git pull
 cd ..
+
 cd soa-g2-examination-service
 git pull
 cd ..
+
 cd soa-g2-u4-schedule-service
 git pull
 cd ..
+
+cd soa-g2-u4-course-service
+git pull
+cd ..
+
 cd soa-g2-app-middleware
 git pull
 cd ..
+
 cd soa-g2-web-ui
 git pull
 cd ..
+
 cd soa-g2-mock-services
 git pull
 cd ..
+
 cd soa-g2-openapis
 git pull
 cd ..
+
 git pull
 echo "Done!"
 echo
