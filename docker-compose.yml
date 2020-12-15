@@ -66,6 +66,15 @@ services:
 #    ports:
 #      - "127.0.0.1:XXXX:XXXX"
 
+  courseserv:
+    image: soa-g2/course-service
+    container_name: courseserv
+    build:
+      context: ./soa-g2-u4-course-service
+      dockerfile: Dockerfile
+#    ports:
+#      - "127.0.0.1:XXXX:XXXX"
+
   webui:
     # This could probably be on an isolated docker subnet...
     # however, due to CORS it may be best if this nginx server 
