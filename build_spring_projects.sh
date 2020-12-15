@@ -23,5 +23,9 @@ cd soa-g2-u4-schedule-service
 ./docker_build.sh
 cd ..
 
+cd soa-g2-u4-course-service
+./docker_build.sh
+cd ..
+
 echo "Done!"
 echo

@@ -5,41 +5,32 @@
 # This script is of course only temporary, git submodules is the way to go.
 #
 # author: Weleoka <weleoka@gitlab.com>
-# edited: 2020-12-9
+# edited: 2020-12-15
 set -euo pipefail
 
-cd soa-g2-student-service
-git pull
-cd ..
+repo_list=(\
+	"soa-g2-student-service" \
+	"soa-g2-examination-service" \
+	"soa-g2-u4-schedule-service" \
+	"soa-g2-u4-course-service" \
+	"soa-g2-app-middleware" \
+	"soa-g2-web-ui" \
+	"soa-g2-mock-services" \
+	"soa-g2-openapis" \
+	)
 
-cd soa-g2-examination-service
+echo "Pulling parent project repo"
 git pull
-cd ..
-
-cd soa-g2-u4-schedule-service
-git pull
-cd ..
-
-cd soa-g2-u4-course-service
-git pull
-cd ..
-
-cd soa-g2-app-middleware
-git pull
-cd ..
-
-cd soa-g2-web-ui
-git pull
-cd ..
-
-cd soa-g2-mock-services
-git pull
-cd ..
-
-cd soa-g2-openapis
-git pull
-cd ..
-
-git pull
-echo "Done!"
+echo "Done"
 echo
+echo "Going through all child repos and pulling changes..."
+
+for repo in "${repo_list[@]}"; do
+    echo "Pulling repo: ${repo}"
+    cd "${repo}"
+    #pwd
+    git pull
+    cd ..
+    echo
+done
+echo "Done!"
