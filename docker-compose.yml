@@ -63,8 +63,8 @@ services:
     build:
       context: ./soa-g2-u4-schedule-service
       dockerfile: Dockerfile
-#    ports:
-#      - "127.0.0.1:XXXX:XXXX"
+    ports:
+      - "127.0.0.1:8084:8084"
 
   courseserv:
     image: soa-g2/course-service
@@ -72,8 +72,8 @@ services:
     build:
       context: ./soa-g2-u4-course-service
       dockerfile: Dockerfile
-#    ports:
-#      - "127.0.0.1:XXXX:XXXX"
+    ports:
+      - "127.0.0.1:8082:8082"
 
   webui:
     # This could probably be on an isolated docker subnet...
