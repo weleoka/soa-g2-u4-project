@@ -79,6 +79,8 @@ services:
     # This could probably be on an isolated docker subnet...
     # however, due to CORS it may be best if this nginx server 
     # also acts as a reverse proxy for app-middleware.
+    depends_on: 
+      - appmw
     image: soa-g2/web-ui
     container_name: webui
     build:
@@ -86,6 +88,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "127.0.0.1:9997:9997"
+    environment:
+      BASE_URL: "localhost:9997"
 
   appmw:
     image: soa-g2/app_middleware
