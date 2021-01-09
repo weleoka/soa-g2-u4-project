@@ -1,0 +1,365 @@
+curl -X GET "http://localhost:8082/course-service/V1/courses" -H  "accept: */*"
+{
+  "courses": [
+    {
+      "course_id": 5,
+      "name": "TC001",
+      "course_code": "TC001",
+      "ects": 7.5,
+      "course_instances": [
+        {
+          "course_occasion_id": 9,
+          "course_code": "TC001",
+          "location": "CAMPUS_KIRUNA",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 1,
+              "user_name": "marbec",
+              "first_name": "Martin",
+              "last_name": "Beck",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            }
+          ]
+        },
+        {
+          "course_occasion_id": 10,
+          "course_code": "TC001",
+          "location": "DISTANCE",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 1,
+              "user_name": "marbec",
+              "first_name": "Martin",
+              "last_name": "Beck",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": 6,
+      "name": "TC002",
+      "course_code": "TC002",
+      "ects": 7.5,
+      "course_instances": [
+        {
+          "course_occasion_id": 11,
+          "course_code": "TC002",
+          "location": "DISTANCE",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 3,
+              "user_name": "ingbec",
+              "first_name": "Inger",
+              "last_name": "Beck",
+              "course_instances": null
+            }
+          ]
+        },
+        {
+          "course_occasion_id": 12,
+          "course_code": "TC002",
+          "location": "CAMPUS_LULEA",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 3,
+              "user_name": "ingbec",
+              "first_name": "Inger",
+              "last_name": "Beck",
+              "course_instances": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": 7,
+      "name": "TC003",
+      "course_code": "TC003",
+      "ects": 7.5,
+      "course_instances": [
+        {
+          "course_occasion_id": 13,
+          "course_code": "TC003",
+          "location": "CAMPUS_LULEA",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 3,
+              "user_name": "ingbec",
+              "first_name": "Inger",
+              "last_name": "Beck",
+              "course_instances": null
+            }
+          ]
+        },
+        {
+          "course_occasion_id": 14,
+          "course_code": "TC003",
+          "location": "DISTANCE",
+          "time_edit_object_id": 0,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 2,
+              "user_name": "gunlar",
+              "first_name": "Gunvald",
+              "last_name": "Larsson",
+              "course_instances": null
+            },
+            {
+              "teacher_id": 3,
+              "user_name": "ingbec",
+              "first_name": "Inger",
+              "last_name": "Beck",
+              "course_instances": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "course_id": 8,
+      "name": "D0031N",
+      "course_code": "D0031N",
+      "ects": 7.5,
+      "course_instances": [
+        {
+          "course_occasion_id": 15,
+          "course_code": "D0031N",
+          "location": "DISTANCE",
+          "time_edit_object_id": 132867,
+          "year": 2021,
+          "periods": [
+            "P3",
+            "P4"
+          ],
+          "teachers": [
+            {
+              "teacher_id": 3,
+              "user_name": "ingbec",
+              "first_name": "Inger",
+              "last_name": "Beck",
+              "course_instances": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+{
+  "course_id": 0,
+  "course_occasion_id": 0,
+  "time_edit_object_id": 0,
+  "reservations": [
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659258.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-20T13:00:00",
+      "end_time": "2020-10-20T14:30:00",
+      "session": null
+    },
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Svante Edzen",
+      "distance_url": "https://ltu-se.zoom.us/j/983246455",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659256.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-13T13:00:00",
+      "end_time": "2020-10-13T14:30:00",
+      "session": null
+    },
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659257.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-15T13:00:00",
+      "end_time": "2020-10-15T14:30:00",
+      "session": null
+    }
+  ],
+  "course_code": "D0031"
+}
+
+
+
+
+{
+   "course_occasion_id": 9,
+   "course_code": "TC001",
+   "location": "CAMPUS_KIRUNA",
+   "time_edit_object_id": 0,
+   "year": 2021,
+   "periods": [
+     "P3",
+     "P4"
+   ],
+   "teachers": [
+     {
+       "teacher_id": 1,
+       "user_name": "marbec",
+       "first_name": "Martin",
+       "last_name": "Beck",
+       "course_instances": null
+     },
+     {
+       "teacher_id": 2,
+       "user_name": "gunlar",
+       "first_name": "Gunvald",
+       "last_name": "Larsson",
+       "course_instances": null
+     }
+   ]
+ },
+
+
+
+
+
+
+
+
+
+
+curl -X GET "http://localhost:8083/schedule-service/V1/schedule/occasion/15" -H  "accept: */*"
+
+{
+  "course_id": 0,
+  "course_occasion_id": 0,
+  "time_edit_object_id": 0,
+  "reservations": [
+    {
+      "location": "Zoom",
+      "user_id": 0,
+      "contact_name": "Svante Edzen",
+      "distance_url": "https://ltu-se.zoom.us/j/983246455",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659261.28&ox=0&types=0&fe=0",
+      "title": "Handledning",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-08T13:00:00",
+      "end_time": "2020-10-08T14:30:00",
+      "session": null
+    },
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659258.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-20T13:00:00",
+      "end_time": "2020-10-20T14:30:00",
+      "session": null
+    },
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Svante Edzen",
+      "distance_url": "https://ltu-se.zoom.us/j/983246455",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659256.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-13T13:00:00",
+      "end_time": "2020-10-13T14:30:00",
+      "session": null
+    },
+    {
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659257.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-15T13:00:00",
+      "end_time": "2020-10-15T14:30:00",
+      "session": null
+    }
+  ],
+  "course_code": "D0031"
+}
