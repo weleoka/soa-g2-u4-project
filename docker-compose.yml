@@ -64,7 +64,7 @@ services:
       context: ./soa-g2-u4-schedule-service
       dockerfile: Dockerfile
     ports:
-      - "127.0.0.1:8084:8084"
+      - "127.0.0.1:8085:8085"
 
   courseserv:
     image: soa-g2/course-service
@@ -73,7 +73,7 @@ services:
       context: ./soa-g2-u4-course-service
       dockerfile: Dockerfile
     ports:
-      - "127.0.0.1:8082:8082"
+      - "127.0.0.1:8084:8084"
 
   webui:
     # This could probably be on an isolated docker subnet...
@@ -89,7 +89,7 @@ services:
     ports:
       - "127.0.0.1:9997:9997"
     environment:
-      BASE_URL: "localhost:9997"
+      BASE_URL: "127.0.0.1  :9997"
 
   appmw:
     image: soa-g2/app_middleware
@@ -98,7 +98,7 @@ services:
       context: ./soa-g2-app-middleware
       dockerfile: Dockerfile
     ports:
-      - "127.0.0.1:8085:8085"
+      - "127.0.0.1:8086:8086"
 
 
 # == Volumes
