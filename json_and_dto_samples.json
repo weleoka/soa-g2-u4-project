@@ -363,3 +363,161 @@ curl -X GET "http://localhost:8083/schedule-service/V1/schedule/occasion/15" -H 
   ],
   "course_code": "D0031"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Canvas request for schedule */
+{
+  "course_id": 0,
+  "course_occasion_id": 0,
+  "time_edit_object_id": 0,
+  "reservations": [
+    {
+      "id": 47138,
+      "location": "ABC123",
+      "user_id": 0,
+      "contact_name": "I historien\n distance-url: http://fiskmas.se/123\n contact: Simon Blomsterlund",
+      "distance_url": "I HISTORIEN\n DISTANCE-URL: HTTP://FISKMAS.SE/123\n CONTACT: SIMON BLOMSTERLUND",
+      "event_url": "url47138",
+      "title": "9 : Fina hundar",
+      "description": "I historien\n distance-url: http://fiskmas.se/123\n contact: Simon Blomsterlund",
+      "start_time": "2021-01-10T12:59:05",
+      "end_time": "2021-01-10T13:59:05",
+      "rooms": null,
+      "resources": null,
+      "session": "PASS1"
+    },
+    {
+      "id": 47332,
+      "location": "string",
+      "user_id": 0,
+      "contact_name": "string\n distance-url: string\n contact: string",
+      "distance_url": "STRING\n DISTANCE-URL: STRING\n CONTACT: STRING",
+      "event_url": "url47332",
+      "title": "9 : string",
+      "description": "string\n distance-url: string\n contact: string",
+      "start_time": "2021-01-11T16:22:32",
+      "end_time": "2021-01-11T16:22:32",
+      "rooms": null,
+      "resources": null,
+      "session": "PASS5"
+    },
+    {
+      "id": 47333,
+      "location": "string",
+      "user_id": 0,
+      "contact_name": "string\n distance-url: string\n contact: string",
+      "distance_url": "STRING\n DISTANCE-URL: STRING\n CONTACT: STRING",
+      "event_url": "url47333",
+      "title": "9 : string",
+      "description": "string\n distance-url: string\n contact: string",
+      "start_time": "2021-01-11T16:22:32",
+      "end_time": "2021-01-11T16:22:32",
+      "rooms": null,
+      "resources": null,
+      "session": "PASS5"
+    },
+    {
+      "id": 47334,
+      "location": "string",
+      "user_id": 0,
+      "contact_name": "string\n distance-url: string\n contact: string",
+      "distance_url": "STRING\n DISTANCE-URL: STRING\n CONTACT: STRING",
+      "event_url": "url47334",
+      "title": "9 : string",
+      "description": "string\n distance-url: string\n contact: string",
+      "start_time": "2021-01-11T16:22:32",
+      "end_time": "2021-01-11T16:22:32",
+      "rooms": null,
+      "resources": null,
+      "session": "PASS5"
+    },
+    {
+      "id": 47328,
+      "location": "R32",
+      "user_id": 0,
+      "contact_name": "Kattmatens dag 4 augusti\n distance-url: http:/zoom.me\n contact: Simon Blomsterlund",
+      "distance_url": "KATTMATENS DAG 4 AUGUSTI\n DISTANCE-URL: HTTP:/ZOOM.ME\n CONTACT: SIMON BLOMSTERLUND",
+      "event_url": "url47328",
+      "title": "9 : Gatuhundarnas historia",
+      "description": "Kattmatens dag 4 augusti\n distance-url: http:/zoom.me\n contact: Simon Blomsterlund",
+      "start_time": "2021-01-11T17:49:56",
+      "end_time": "2021-01-11T18:49:56",
+      "rooms": null,
+      "resources": null,
+      "session": "PASS1"
+    }
+  ],
+  "course_code": null
+}
+
+
+
+
+
+{
+  "course_id": 0,
+  "course_occasion_id": 0,
+  "time_edit_object_id": 0,
+  "reservations": [
+    {
+      "id": 0,
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659258.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-20T13:00:00",
+      "end_time": "2020-10-20T14:30:00",
+      "rooms": null,
+      "resources": null,
+      "session": null
+    },
+    {
+      "id": 0,
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Svante Edzen",
+      "distance_url": "https://ltu-se.zoom.us/j/983246455",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659256.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-13T13:00:00",
+      "end_time": "2020-10-13T14:30:00",
+      "rooms": null,
+      "resources": null,
+      "session": null
+    },
+    {
+      "id": 0,
+      "location": "Zoom, A211",
+      "user_id": 0,
+      "contact_name": "Ingemar Andersson",
+      "distance_url": "https://ltu-se.zoom.us/j/518490809",
+      "event_url": "https://cloud.timeedit.net/ltu/web/schedule1/ri.json?h=t&sid=3&objects=659257.28&ox=0&types=0&fe=0",
+      "title": "Lektion",
+      "description": "D0031N. Enterprise Architecture och SOA, D0031N. Enterprise Architecture och SOA",
+      "start_time": "2020-10-15T13:00:00",
+      "end_time": "2020-10-15T14:30:00",
+      "rooms": null,
+      "resources": null,
+      "session": null
+    }
+  ],
+  "course_code": "D0031"
+}

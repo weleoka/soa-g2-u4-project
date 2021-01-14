@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Services and dependencies layer</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Services and dependencies layer</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-f1783de2abf642da93691c029880f02e.html" target="element"> epok-api </a> </td>
+											    <td> <a href="../elements/id-f1783de2abf642da93691c029880f02e.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3a2f9307aed048fc941701679a36eb5c.html" target="element"> studentits-api </a> </td>
+											    <td> <a href="../elements/id-3a2f9307aed048fc941701679a36eb5c.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f660f22e643340da99a013c51f4118ab.html" target="element"> ladok-api </a> </td>
+											    <td> <a href="../elements/id-f660f22e643340da99a013c51f4118ab.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0bee2d7e58a34e3986b19ce6305a1430.html" target="element"> nya-api </a> </td>
+											    <td> <a href="../elements/id-0bee2d7e58a34e3986b19ce6305a1430.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-faae754981674334800a89f39be1f4d9.html" target="element"> StudentITS </a> </td>
+											    <td> <a href="../elements/id-faae754981674334800a89f39be1f4d9.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-acff10f5aabb43c898a0d267fbf43e2c.html" target="element"> NyA </a> </td>
+											    <td> <a href="../elements/id-acff10f5aabb43c898a0d267fbf43e2c.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f02fd778c42744d59b7d0710be76148a.html" target="element"> LADOK </a> </td>
+											    <td> <a href="../elements/id-f02fd778c42744d59b7d0710be76148a.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-fbd86026fe4c4f2e8aa3aba5949b1a7f.html" target="element"> EPOK </a> </td>
+											    <td> <a href="../elements/id-fbd86026fe4c4f2e8aa3aba5949b1a7f.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-81d5b6f2744c449aab22b6eab49978be.html" target="element"> Canvas </a> </td>
+											    <td> <a href="../elements/id-81d5b6f2744c449aab22b6eab49978be.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6cba82c9de134553bcd0529661a9c70b.html" target="element"> canvas-api </a> </td>
+											    <td> <a href="../elements/id-6cba82c9de134553bcd0529661a9c70b.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-43067b4edf90423bae0a4da726a586d1.html" target="element"> Time-Edit </a> </td>
+											    <td> <a href="../elements/id-43067b4edf90423bae0a4da726a586d1.html" target="element" class="i18n-elementtype-ApplicationComponent"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-74051ca5d5e943fe8691fb5b4abf12a6.html" target="element"> time-edit-api </a> </td>
+											    <td> <a href="../elements/id-74051ca5d5e943fe8691fb5b4abf12a6.html" target="element" class="i18n-elementtype-ApplicationInterface"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-30936ab0cde14dfda64a2d28bd1950ef.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-30936ab0cde14dfda64a2d28bd1950ef.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-f1783de2abf642da93691c029880f02e.html" target="element"> epok-api </a> </td>
+																		<td> <a href="../elements/id-a32b4f782a4c433dbd8e71f1809c268f.html" target="element"> examination-service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0f5e175fb8174b86963ab6ea47839f0d.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0f5e175fb8174b86963ab6ea47839f0d.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-f1783de2abf642da93691c029880f02e.html" target="element"> epok-api </a> </td>
+																		<td> <a href="../elements/id-cfa60f6809ef4a239bef8c43b59d8514.html" target="element"> course-service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d41703174ca5414c9d58e47047d1874e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d41703174ca5414c9d58e47047d1874e.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-3a2f9307aed048fc941701679a36eb5c.html" target="element"> studentits-api </a> </td>
+																		<td> <a href="../elements/id-3f8b7b9e046b43f8b005376de660faad.html" target="element"> student-service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b69a3e3b3f7e48619ef013b8de132071.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-b69a3e3b3f7e48619ef013b8de132071.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-f660f22e643340da99a013c51f4118ab.html" target="element"> ladok-api </a> </td>
+																		<td> <a href="../elements/id-a32b4f782a4c433dbd8e71f1809c268f.html" target="element"> examination-service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e17d948ecda2438caa70e0e3c2e171be.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e17d948ecda2438caa70e0e3c2e171be.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-0bee2d7e58a34e3986b19ce6305a1430.html" target="element"> nya-api </a> </td>
+																		<td> <a href="../elements/id-cfa60f6809ef4a239bef8c43b59d8514.html" target="element"> course-service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-c5fe587499904d73a1f6c71626dbbf6f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c5fe587499904d73a1f6c71626dbbf6f.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-faae754981674334800a89f39be1f4d9.html" target="element"> StudentITS </a> </td>
+																		<td> <a href="../elements/id-3a2f9307aed048fc941701679a36eb5c.html" target="element"> studentits-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-88f86b12d06e40e6b0368c9481bb952c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-88f86b12d06e40e6b0368c9481bb952c.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-acff10f5aabb43c898a0d267fbf43e2c.html" target="element"> NyA </a> </td>
+																		<td> <a href="../elements/id-0bee2d7e58a34e3986b19ce6305a1430.html" target="element"> nya-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f89196c92e7f40b29a8f283597c83997.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f89196c92e7f40b29a8f283597c83997.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-f02fd778c42744d59b7d0710be76148a.html" target="element"> LADOK </a> </td>
+																		<td> <a href="../elements/id-f660f22e643340da99a013c51f4118ab.html" target="element"> ladok-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-64582ebea5d44207aa0986b1e53eeab7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-64582ebea5d44207aa0986b1e53eeab7.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-fbd86026fe4c4f2e8aa3aba5949b1a7f.html" target="element"> EPOK </a> </td>
+																		<td> <a href="../elements/id-f1783de2abf642da93691c029880f02e.html" target="element"> epok-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-7e6a121f1c7c4a98ac1c16febc9e1514.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7e6a121f1c7c4a98ac1c16febc9e1514.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-81d5b6f2744c449aab22b6eab49978be.html" target="element"> Canvas </a> </td>
+																		<td> <a href="../elements/id-6cba82c9de134553bcd0529661a9c70b.html" target="element"> canvas-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-0b52c88b2b18432f8978836974c73f86.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0b52c88b2b18432f8978836974c73f86.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-6cba82c9de134553bcd0529661a9c70b.html" target="element"> canvas-api </a> </td>
+																		<td> <a href="../elements/id-a32b4f782a4c433dbd8e71f1809c268f.html" target="element"> examination-service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-27f346a90fac4a7ea4f475da8f8a67c0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-27f346a90fac4a7ea4f475da8f8a67c0.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-6cba82c9de134553bcd0529661a9c70b.html" target="element"> canvas-api </a> </td>
+																		<td> <a href="../elements/id-7508820554ab4c41afd500bb864759fa.html" target="element"> schedule-service </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d6ccedfe8d8e496d8ef4f2ecb303cd21.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d6ccedfe8d8e496d8ef4f2ecb303cd21.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-43067b4edf90423bae0a4da726a586d1.html" target="element"> Time-Edit </a> </td>
+																		<td> <a href="../elements/id-74051ca5d5e943fe8691fb5b4abf12a6.html" target="element"> time-edit-api </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-6cfbcbc2672e422188040b03f30fb631.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-6cfbcbc2672e422188040b03f30fb631.html" target="element" class="i18n-elementtype-ServingRelationship"></a> </td>
+																		<td> <a href="../elements/id-74051ca5d5e943fe8691fb5b4abf12a6.html" target="element"> time-edit-api </a> </td>
+																		<td> <a href="../elements/id-7508820554ab4c41afd500bb864759fa.html" target="element"> schedule-service </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
